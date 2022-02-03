@@ -1,0 +1,419 @@
+body{
+
+
+
+}
+
+*{margin: 0; padding:0}
+
+
+.container{
+
+    width: 100%;
+
+}
+
+
+
+
+/*Header*/
+
+.header{
+
+
+
+
+}
+
+.header__intro{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.header__link{
+
+
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #76869F;
+    opacity: 0.6;
+    text-decoration: none;
+
+}
+
+.header__link:hover{
+
+    color: #5CA35B;
+    transition: .5s ;
+    opacity: 1;
+}
+
+.header__logo{
+
+    height: 52px ;
+    width: 34px ;
+    margin: 50px 150px 0px 150px;
+
+}
+
+
+
+
+
+/*intro*/
+
+.intro{
+
+    height: 700px;
+    background-color: #11161E;
+
+}
+
+
+.intro__inner{
+
+    margin-bottom: 200px;
+
+}
+
+.intro__img{
+
+    margin-left: 54%;
+    margin-top: 80px;
+
+}
+
+.intro__title{
+
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.intro__subtitle{
+
+    margin-top: 30px;
+    color:  #6A7C95;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.btn{
+
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 300;
+    width: 262px;
+    height: 49px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #5CA35B;
+    border: solid 3px #5CA35B ;
+
+}
+
+.btn:hover{
+
+    background-color: #fff ;
+    color: #5CA35B;
+    transition: .5s;
+
+}
+
+.text{
+    margin-top: -370px;
+    padding-left: 50px;
+
+}
+
+
+/*Link*/
+
+.link{
+
+    text-align: left;
+    padding-top: 120px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181F29;
+
+
+}
+
+.link__inner{
+
+
+
+}
+
+.link__title{
+
+    margin-left: 94px;
+    color: #fff;
+    font-size: 42px;
+
+}
+
+.link__subtitle{
+
+    margin-top: 25px;
+    margin-left: 95px;
+    color: #6A7C95;
+    font-size: 20px;
+
+}
+
+/*card*/
+
+.link__card{
+
+    text-align: center;
+    width: 317px;
+    height: 340px;
+    border-radius: 15px;
+    background-color: #273140;
+    justify-content: center;
+    margin: 94px;
+
+
+
+}
+
+.card__icon{
+
+    margin-top: 30px;
+    height: 91px;
+    width: 91px;
+
+}
+
+.card__title{
+
+    margin-top: 30px;
+    font-size: 28px;
+    color: #fff;
+
+}
+
+.card__inner{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.link__card{
+
+
+
+}
+
+.card__subtitle{
+
+
+    margin-top: 35px;
+    font-size: 18px;
+    color: #717E92;
+
+}
+
+
+
+/*possibility*/
+
+
+.possibility{
+
+    padding-top : 130px;
+    padding-bottom: 130px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #11161E;
+
+
+}
+
+.possiblity__inner{
+
+
+    background-color: #11161E;
+
+}
+
+.possibility__title{
+
+    margin-left: 70px ;
+    color: #FFFFFF;
+    font-size: 42px;
+
+}
+
+.possibility__text{
+
+    margin-left: 70px ;
+    margin-top: 10px;
+    color: #6A7C95;
+    font-size: 20px;
+
+}
+
+.possibility__icon{
+
+    margin-top: 50px;
+    margin-left: 70px ;
+
+}
+
+
+
+/*convenience*/
+
+.convenience{
+
+    padding-top : 130px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181F29;
+
+
+
+}
+
+.convenience__inner{
+
+    background-color: #181F29;
+
+
+}
+
+.convenience__title{
+
+    margin-left: 70px ;
+    color: #FFFFFF;
+    font-size: 42px;
+
+}
+
+.convenience__text{
+
+    margin-left: 70px ;
+    margin-top: 10px;
+    color: #6A7C95;
+    font-size: 20px;
+
+}
+
+.convenience__icon{
+
+    margin-top: 50px;
+    margin-left: 70px ;
+
+}
+
+.b{
+    padding-left: 70px;
+}
+
+.convenience__btn{
+
+    margin-top: 50px;
+    border: solid 3px #212A38 ;
+    color: #6A7C95;
+    background-color: #212A38;
+    width: 262px;
+    height: 49px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.convenience__btn:hover{
+
+    background-color: #6A7C95;
+    color: #212A38 ;
+    transition: .5s;
+
+}
+
+
+.in{
+    margin-left: 660px;
+    margin-top: -220px;
+}
+
+.convenience__mobile{
+
+    margin-left: 30px;
+
+}
+
+
+
+.convenience__descktop{
+
+
+
+}
+
+/*info*/
+
+.info{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #11161E;
+
+}
+
+.info__inner{
+
+    background-color: #11161E;
+    margin-top: 130px;
+
+}
+
+.info__title{
+
+
+    margin-left: 70px;
+    color: #fff;
+    font-size: 42px;
+
+}
+
+.info__text{
+
+    margin-left: 70px;
+    color:  #6A7C95;
+    font-size: 20px;
+
+}
+
+
+/*card*/
+
+.info__card{
+
+}
+
+.InfoCard__title{
+
+}
+
+.InfoCard__subtitle{
+
+}
+
+.InfoCard__text{
+
+}
+
+
